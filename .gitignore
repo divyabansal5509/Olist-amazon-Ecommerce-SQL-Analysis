@@ -1,0 +1,12 @@
+
+# Large database dump
+amazon.sql
+
+# Git and editor files
+.git/
+.vscode/
+
+# Temporary and system files
+*.log
+Thumbs.db
+.DS_Store
