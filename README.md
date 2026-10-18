@@ -65,6 +65,22 @@ The project is organized into seven phases, moving from understanding the datase
 - Data quality and missing-review checks
 - Seller, product, and customer experience analysis
 
+## Key Findings
+
+### Product Category Revenue Analysis
+
+The SQL analysis identified the following top five product categories by reported revenue:
+
+1. **Health & Beauty** — 1,233,131.72
+2. **Watches & Gifts** — 1,166,176.98
+3. **Bed, Bath & Table** — 1,023,434.76
+4. **Sports & Leisure** — 954,852.55
+5. **Computers & Accessories** — 888,724.61
+
+**Business takeaway:** Health & Beauty recorded the highest revenue among the categories returned by the query, followed by Watches & Gifts. These results provide a starting point for deeper analysis of category performance and revenue trends.
+
+*Note: Revenue units and calculation should be interpreted according to the SQL query used.*
+
 ## Repository Contents
 
 - **Analysis folders:** Seven organized phases of SQL analysis
