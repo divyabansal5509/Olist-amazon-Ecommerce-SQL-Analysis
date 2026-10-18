@@ -123,6 +123,16 @@ Used a correlated subquery with `NOT EXISTS` to identify registered sellers who 
 
 *Note: The result identifies sellers without delivered orders, not necessarily sellers who have never received an order.*
 
+### Products Never Ordered
+
+Used a correlated subquery with `NOT EXISTS` to identify products in the catalog that have no matching records in `order_items`.
+
+**Result:** The query returned 0 rows, meaning every product in the current dataset has at least one matching order-item record.
+
+**Business takeaway:** No never-ordered products were identified in this dataset. Further analysis of order frequency and sales volume would be needed to identify low-demand products.
+
+**SQL concepts practiced:** Correlated subqueries, `NOT EXISTS`, and product catalog analysis.
+
 ## Repository Contents
 
 - **Analysis folders:** Seven organized phases of SQL analysis
