@@ -14,9 +14,6 @@ The goal is to practice SQL-based data analysis by working with multiple related
 - **Product Analysis:** Investigated product-level performance and category trends.
 - **Customer Experience:** Explored order statuses, reviews, and delivery-related metrics.
 
-**Tools:** PostgreSQL · SQL · GitHub
-
-**SQL concepts:** Joins, CTEs, aggregate functions, window functions, date-based analysis, and data quality checks.
 
 ## Dataset
 
@@ -76,6 +73,20 @@ The project is organized into seven phases, moving from understanding the datase
 - Cumulative analysis
 - Data quality and missing-review checks
 - Seller, product, and customer experience analysis
+
+## 📊 Project at a Glance
+
+| Analysis Area | Key Finding |
+|---|---|
+| Product Category Revenue | Health & Beauty ranked first at 1,233,131.72 in reported revenue |
+| Seller Order Volume | SP had the highest seller-associated delivered-order volume at 68,641 |
+| Seller Analysis | 125 sellers had no associated delivered orders |
+| Product Catalog | No products without matching order-item records were identified |
+| Customer Reviews | CDs & DVDs recorded the highest average category review score at 4.67 |
+| Customer Experience | AP had the highest average review score among the states shown, at 4.19 |
+| Delivery Performance | Median delivery time was 10.22 days |
+
+*Results reflect the definitions, filters, and records used in the corresponding SQL queries.*
 
 ## Key Findings
 
