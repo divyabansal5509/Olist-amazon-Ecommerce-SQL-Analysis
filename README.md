@@ -111,6 +111,17 @@ Analyzed delivered orders by seller state using joins across the `sellers`, `ord
 
 **SQL concepts practiced:** Multi-table joins, `COUNT(DISTINCT ...)`, filtering, grouping, and sorting aggregated results.
 
+### Sellers Without Delivered Orders
+
+Used a correlated subquery with `NOT EXISTS` to identify registered sellers who have no associated order items belonging to delivered orders.
+
+**Result:** The query returned 125 sellers.
+
+**Business takeaway:** These sellers may warrant further investigation to understand whether they have received orders, whether their orders were canceled or remain unfulfilled, or whether they are inactive on the platform.
+
+**SQL concepts practiced:** Correlated subqueries, `NOT EXISTS`, joins, and filtering by order status.
+
+*Note: The result identifies sellers without delivered orders, not necessarily sellers who have never received an order.*
 
 ## Repository Contents
 
