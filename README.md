@@ -148,6 +148,22 @@ Analyzed average customer review scores across product categories using joins be
 
 **SQL concepts practiced:** Multi-table joins, CTEs, `DISTINCT`, aggregate functions, `ROUND()`, `GROUP BY`, and sorting aggregated results.
 
+### Customer Review Scores by State
+
+Calculated average customer review scores for delivered orders, grouped by customer state. Null review scores were excluded from the analysis.
+
+**Top results shown:**
+- **AP:** 4.19
+- **PR:** 4.18
+- **AM:** 4.18
+- **SP:** 4.17
+- **MG:** 4.14
+- **RS:** 4.13
+
+**Business takeaway:** AP recorded the highest average review score among the states shown. Review counts and delivery performance could be examined alongside these averages to better understand differences in customer experience.
+
+**SQL concepts practiced:** Multi-table joins, filtering null values, `AVG()`, `ROUND()`, `GROUP BY`, and sorting aggregated results.
+
 ## Repository Contents
 
 - **Analysis folders:** Seven organized phases of SQL analysis
