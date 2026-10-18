@@ -164,6 +164,18 @@ Calculated average customer review scores for delivered orders, grouped by custo
 
 **SQL concepts practiced:** Multi-table joins, filtering null values, `AVG()`, `ROUND()`, `GROUP BY`, and sorting aggregated results.
 
+### Delivery Time Analysis
+
+Calculated the median delivery time for the orders included in the analysis.
+
+**Result:** Median delivery time was **10.22 days**.
+
+**Business takeaway:** The median provides a useful measure of typical delivery duration that is less sensitive to exceptionally long deliveries than the mean. Further analysis by state, seller, or order period could help identify differences in delivery performance.
+
+**SQL concepts practiced:** Date and time calculations and median-based analysis.
+
+*Note: The result applies to the records and delivery-time definition used in the SQL query.*
+
 ## Repository Contents
 
 - **Analysis folders:** Seven organized phases of SQL analysis
