@@ -105,6 +105,26 @@ The project is organized into seven phases, moving from database setup and explo
 
 Each phase contains SQL scripts for a specific area of analysis. The sequence demonstrates a structured approach to exploring the dataset, answering business questions, and interpreting results.
 
+
+## 🚀 How to Run the Project
+
+### Prerequisites
+- PostgreSQL
+- A SQL client such as pgAdmin, psql, or VS Code with a PostgreSQL extension
+- The project dataset included in the repository
+
+### Steps
+1. Clone or download this repository.
+2. Review the database setup scripts in `01_schema_and_exploration`.
+3. Download or extract the dataset files from `csv_files_data`, as required by the SQL scripts.
+4. Create the database and tables using the provided setup scripts.
+5. Load the data into the corresponding tables.
+6. Execute the analysis scripts in the relevant phase folders.
+7. Review the query results and compare them with the findings documented in this README.
+
+**Note:** Run the scripts in the appropriate order and check their database and file-path requirements before execution.
+
+
 ## Key Findings
 
 ### Product Category Revenue Analysis
