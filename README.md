@@ -133,6 +133,21 @@ Used a correlated subquery with `NOT EXISTS` to identify products in the catalog
 
 **SQL concepts practiced:** Correlated subqueries, `NOT EXISTS`, and product catalog analysis.
 
+### Product Category Review Score Analysis
+
+Analyzed average customer review scores across product categories using joins between products, category translations, order items, orders, and order reviews.
+
+**Top results:**
+- **CDs & DVDs:** 4.67
+- **Fashion — Children's Clothes:** 4.50
+- **Books — General Interest:** 4.46
+- **Construction Tools:** 4.43
+- **Technical Books:** 4.40
+
+**Business takeaway:** CDs & DVDs recorded the highest average review score among the categories displayed. Comparing review scores alongside review counts and sales volume could help distinguish consistently strong customer experiences from categories with fewer reviews.
+
+**SQL concepts practiced:** Multi-table joins, CTEs, `DISTINCT`, aggregate functions, `ROUND()`, `GROUP BY`, and sorting aggregated results.
+
 ## Repository Contents
 
 - **Analysis folders:** Seven organized phases of SQL analysis
