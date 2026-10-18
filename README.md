@@ -81,6 +81,22 @@ The SQL analysis identified the following top five product categories by reporte
 
 *Note: Revenue units and calculation should be interpreted according to the SQL query used.*
 
+### Cumulative Revenue Analysis
+
+Used a Common Table Expression (CTE) to aggregate delivered-order item revenue by product category and purchase timestamp, then applied a window function to calculate cumulative revenue over time.
+
+**SQL concepts practiced:**
+- Multi-table joins
+- Aggregate functions and grouping
+- CTEs
+- Window functions with `PARTITION BY` and `ORDER BY`
+- Running totals using `ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`
+
+**Business purpose:** Understand how product-category revenue accumulates as delivered orders are recorded over time.
+
+**Revenue definition:** This analysis sums item prices and excludes freight charges, using only orders with a `delivered` status.
+
+
 ## Repository Contents
 
 - **Analysis folders:** Seven organized phases of SQL analysis
