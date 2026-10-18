@@ -96,6 +96,21 @@ Used a Common Table Expression (CTE) to aggregate delivered-order item revenue b
 
 **Revenue definition:** This analysis sums item prices and excludes freight charges, using only orders with a `delivered` status.
 
+### Seller Order Volume by State
+
+Analyzed delivered orders by seller state using joins across the `sellers`, `order_items`, and `orders` tables.
+
+**Top results:**
+1. **SP:** 68,641 delivered orders
+2. **MG:** 7,735 delivered orders
+3. **PR:** 7,512 delivered orders
+4. **RJ:** 4,227 delivered orders
+5. **SC:** 3,603 delivered orders
+
+**Business takeaway:** SP accounts for the highest seller-associated delivered-order volume in this analysis. Further analysis of seller counts and order distribution could help explain this concentration.
+
+**SQL concepts practiced:** Multi-table joins, `COUNT(DISTINCT ...)`, filtering, grouping, and sorting aggregated results.
+
 
 ## Repository Contents
 
