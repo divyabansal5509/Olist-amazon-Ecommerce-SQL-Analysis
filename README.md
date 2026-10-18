@@ -88,6 +88,23 @@ The project is organized into seven phases, moving from understanding the datase
 
 *Results reflect the definitions, filters, and records used in the corresponding SQL queries.*
 
+
+## 🗂️ SQL Analysis Roadmap
+
+The project is organized into seven phases, moving from database setup and exploration to business analysis.
+
+| Phase | Focus | SQL Files |
+|---|---|---|
+| 1 | Database Setup & Exploration | `01_create_database_tables.sql`, `02_insert_data.sql`, `03_database_exploration.sql` |
+| 2 | Basic Business Metrics | `01_orders_and_payments.sql`, `02_customer_spending.sql` |
+| 3 | Sales & Revenue Analysis | `01_category_revenue.sql`, `02_cumulative_category_revenue_.sql` |
+| 4 | Customer Analysis | `01_customer_orders_by_state.sql`, `02_customers_without_reviews.sql` |
+| 5 | Seller Analysis | `01_seller_order_volume_by_state_.sql`, `02_seller_performance.sql` |
+| 6 | Product Analysis | `01_products_never_ordered.sql` |
+| 7 | Customer Experience | `01_category_review_scores_.sql`, `02_state_review_scores.sql`, `03_delivery_time_analysis_.sql` |
+
+Each phase contains SQL scripts for a specific area of analysis. The sequence demonstrates a structured approach to exploring the dataset, answering business questions, and interpreting results.
+
 ## Key Findings
 
 ### Product Category Revenue Analysis
