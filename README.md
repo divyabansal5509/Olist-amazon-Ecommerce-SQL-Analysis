@@ -6,6 +6,18 @@ This project explores Brazilian e-commerce data from Olist using SQL to answer b
 
 The goal is to practice SQL-based data analysis by working with multiple related tables, validating data, and translating business questions into structured queries.
 
+## 📌 Project Highlights
+
+- **Sales & Revenue Analysis:** Analyzed order trends and revenue across product categories.
+- **Customer Analysis:** Explored customer purchasing patterns and behavior.
+- **Seller Performance:** Examined seller activity and order distribution.
+- **Product Analysis:** Investigated product-level performance and category trends.
+- **Customer Experience:** Explored order statuses, reviews, and delivery-related metrics.
+
+**Tools:** PostgreSQL · SQL · GitHub
+
+**SQL concepts:** Joins, CTEs, aggregate functions, window functions, date-based analysis, and data quality checks.
+
 ## Dataset
 
 - **Source:** [Brazilian E-Commerce Public Dataset by Olist — Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
